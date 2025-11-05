@@ -256,5 +256,4 @@ Vue 2 Composition API와 Vue 3 Script Setup에서 사용되는 라이프사이�
 
 **주의**
 - onBeforeMount: ref가 null (DOM 생성 전)
-- onMounted/onUpdated: ref 사용 가능 (DOM 생성 후)#   V u e - P r a c t i v e - D e m o  
- 
+- onMounted/onUpdated: ref 사용 가능 (DOM 생성 후)

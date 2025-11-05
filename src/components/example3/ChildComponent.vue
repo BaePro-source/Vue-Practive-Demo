@@ -1,4 +1,3 @@
-<!-- ChildComponent.vue -->
 <template>
   <div>
     <p>{{ message }}</p>
@@ -6,8 +5,9 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: ['message']
-};
+<script setup>
+import { defineProps, defineEmits } from 'vue';
+
+defineProps(['message']);
+defineEmits(['custom-event']);
 </script>
