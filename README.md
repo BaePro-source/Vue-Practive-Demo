@@ -9,8 +9,6 @@
 
 ## 동작확인
 ![E01Instance 실행 결과](/screenshots/E-01-instance.png)
-![E02Reactive 실행 결과](./screenshots/e02-reactive.png)
-
 
 ## E02Reactive.vue 변경 포인트
 
@@ -22,6 +20,8 @@
 6. **.value 접근**: 스크립트 내에서 ref 변수는 `.value`로 접근
 7. **자동 언래핑**: 템플릿에서는 `.value` 없이 사용 가능
 
+![E02Reactive 실행 결과](/screenshots/E-02-reactive-before-2s.png)
+![E02Reactive 실행 결과](/screenshots/E-02-reactive-after-2s.png)
 
 ## E03Binding.vue 변경 포인트
 
