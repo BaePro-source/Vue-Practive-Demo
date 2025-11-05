@@ -196,7 +196,7 @@ Vue 2 Composition API와 Vue 3 Script Setup에서 사용되는 라이프사이�
 - 모든 기능 동일
 - 템플릿 변경 없음
 
-![E09Composition-API 실행 결과](/screenshots/E-08-compositionapi.png)
+![E09Composition-API 실행 결과](/screenshots/E-09-compositionapi.png)
 
 ## E10Ref.vue
 
