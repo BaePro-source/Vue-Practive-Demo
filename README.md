@@ -7,6 +7,10 @@
 4. **`return` 제거**: 최상위 변수는 자동으로 템플릿에 노출
 5. **`name` 속성 제거**: 파일명으로 자동 추론
 
+## 동작확인
+![E01Instance 실행 결과](./screenshots/e01-instance.png)
+![E02Reactive 실행 결과](./screenshots/e02-reactive.png)
+
 
 ## E02Reactive.vue 변경 포인트
 

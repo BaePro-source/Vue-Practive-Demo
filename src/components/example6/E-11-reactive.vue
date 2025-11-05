@@ -10,8 +10,8 @@
 import { reactive } from 'vue';
 
 const person = reactive({
-  name: 'John Doe',
-  age: 30
+  name: 'Jaehun Bae',
+  age: 25
 });
 
 const incrementAge = () => {

@@ -22,8 +22,8 @@ const props = defineProps({
 });
 
 // 반응형 상태 정의
-const firstName = ref('John');
-const lastName = ref('Doe');
+const firstName = ref('E08');
+const lastName = ref('BAE');
 const greetCount = ref(0);
 const message = ref('');
 

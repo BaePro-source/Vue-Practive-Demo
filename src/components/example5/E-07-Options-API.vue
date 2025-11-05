@@ -21,8 +21,8 @@ const props = defineProps({
   }
 });
 
-const firstName = ref('John');
-const lastName = ref('Doe');
+const firstName = ref('Jaehun');
+const lastName = ref('Bae');
 const greetCount = ref(0);
 const message = ref('');
 
