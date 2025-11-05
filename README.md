@@ -8,7 +8,7 @@
 5. **`name` 속성 제거**: 파일명으로 자동 추론
 
 ## 동작확인
-![E01Instance 실행 결과](/screenshots/e01-instance.png)
+![E01Instance 실행 결과](/screenshots/E-01-instance.png)
 ![E02Reactive 실행 결과](./screenshots/e02-reactive.png)
 
 
