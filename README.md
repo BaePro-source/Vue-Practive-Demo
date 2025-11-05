@@ -32,6 +32,7 @@
 5. **`v-model` 동일**: Vue 3에서도 동일하게 작동
 6. **자동 언래핑**: 템플릿에서는 `.value` 없이 사용 가능
 
+![E03Binding 실행 결과](/screenshots/E-03-binding.png)
 
 ## E04Directives.vue 변경 포인트
 
@@ -41,6 +42,7 @@
 4. **디렉티브 유지**: 모든 v-if, v-for, v-show, v-text, v-html, v-pre 등 디렉티브는 동일하게 작동
 5. **자동 언래핑**: 템플릿에서는 자동으로 `.value` 언래핑
 
+![E04Directives 실행 결과](/screenshots/E-04-directives.png)
 
 ## ChildComponent
 1. **`defineProps()` import**: vue에서 명시적으로 import
@@ -54,6 +56,8 @@
 2. **`data()` → `ref()`**: 반응형 데이터를 `ref()`로 선언
 3. **`methods` → 함수**: 메서드를 일반 함수로 선언
 4. **자동 노출**: 모든 변수와 함수가 템플릿에서 자동 사용 가능
+
+![E05ParentComponent 실행 결과](/screenshots/E-05-parentcomponent.png)
 
 ## ParentComponent
 1. **`provide()` 함수**: vue에서 import 후 직접 호출
@@ -74,6 +78,8 @@
 - **Provide**: 부모에서 데이터 제공
 - **Inject**: 자식에서 제공 데이터 주입받음
 - 깊은 컴포넌트 트리에서 효율적인 데이터 전달
+
+![E06ParentComponent 실행 결과](/screenshots/E-06-parentcomponent.png)
 
 ## E07Options-API.vue
 
@@ -123,6 +129,8 @@
 
 `withDefaults`는 TypeScript 타입 기반 선언에만 사용 가능하므로, JavaScript 런타임 선언에서는 `type`과 `default` 옵션을 사용하세요.
 
+![E07Options-API 실행 결과](/screenshots/E-07-optionsapi.png)
+
 ## E08Composition-API.vue
 
 ## 변경 포인트
@@ -162,6 +170,8 @@ Vue 2 Composition API와 Vue 3 Script Setup에서 사용되는 라이프사이�
 - onBeforeUnmount
 - onUnmounted
 
+![E08Composition-API 실행 결과](/screenshots/E-08-compositionapi.png)
+
 ## E09Composition-API2.vue
 
 ## 변경 사항
@@ -185,6 +195,8 @@ Vue 2 Composition API와 Vue 3 Script Setup에서 사용되는 라이프사이�
 - Props, ref, computed, watch, 라이프사이클 훅
 - 모든 기능 동일
 - 템플릿 변경 없음
+
+![E09Composition-API 실행 결과](/screenshots/E-08-compositionapi.png)
 
 ## E10Ref.vue
 
@@ -210,7 +222,7 @@ Vue 2 Composition API와 Vue 3 Script Setup에서 사용되는 라이프사이�
 - 템플릿에서 자동 언래핑
 - 메서드 자동 노출
 
----
+![E10Ref 실행 결과](/screenshots/E-10-ref.png)
 
 ## E11Reactive.vue
 
@@ -238,7 +250,7 @@ Vue 2 Composition API와 Vue 3 Script Setup에서 사용되는 라이프사이�
 | 접근 | .value | 직접 |
 | 사용 | 단일 값 | 객체 |
 
----
+![E11Reactive 실행 결과](/screenshots/E-11-reactive.png)
 
 ## E12RefComponent.vue
 
@@ -261,3 +273,5 @@ Vue 2 Composition API와 Vue 3 Script Setup에서 사용되는 라이프사이�
 **주의**
 - onBeforeMount: ref가 null (DOM 생성 전)
 - onMounted/onUpdated: ref 사용 가능 (DOM 생성 후)
+
+![E12RefComponent 실행 결과](/screenshots/E-12-refcomponent.png)
